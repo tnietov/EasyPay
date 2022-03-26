@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Loging | EasyPay</title>
+    <link rel="stylesheet" href="CSS/master.css">
+    <script src="./../main.js" type="text/javascript"></script>
+</head>
+<body>   
+        <div class="login-box">
+        <img class="avatar"src="img/logo.jpeg" alt="Logo de EasyPay"> 
+        <h1>Login Here</h1>
+        <form class="form" onsubmit="signIn(this)" action="#" method="get" id="loginForm"> 
+            <!--USERNAME-->
+            <div class="form-group">
+                <label for="username">Username
+                    <input type="text" name="userId" placeholder=" Enter Username" pattern="^[0-9]{10}" value="">
+                </label>
+            </div>
+            <!--PASSWORD-->
+            <!--label for="password">Password
+                <input type="password" placeholder=" Enter Password">
+            </-label-->
+            
+            <div class="form-group">
+                <input type="submit" value="Log In" >
+            </div>
+
+            <div class="action-group">
+                <a href="#">Lost your password?</a><br>
+                <a href="#">Don't have a account?</a>    
+            </div>
+        </form>
+    
+</body>
+</html>
